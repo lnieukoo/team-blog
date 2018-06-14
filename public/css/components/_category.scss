@@ -1,0 +1,32 @@
+.category {
+  padding: $m-size;
+  word-break: normal;
+}
+.category__button {
+  margin-top: $m-size;
+  margin-left: 0;
+  margin-right: 0;
+}
+.category__h2 {
+  text-align: center;
+}
+.category__items {
+  color: $red-theme;
+  font-size: $m-size;
+  font-weight: bold;
+}
+.category__textarea {
+  font-size: $m-size
+}
+@media (max-width: $desktop-breakpoint) {
+  .category__items {
+    text-align: center;
+  }
+  .category button {
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+    display: block;
+  }
+
+}

@@ -1,0 +1,16 @@
+.post__blue {
+  color: $post-blue;
+}
+.post__orange {
+  color: $post-orange;
+}
+.post__yellow {
+  color: $post-yellow;
+}
+
+
+@media (max-width: $desktop-breakpoint){
+  .post__h2 {
+      text-align: center;
+  }
+}

@@ -1,0 +1,27 @@
+.footer {
+  background: $footer-bg;
+  height: 30rem;
+  width: 100%;
+  color: #727D83;
+  margin: 0;
+}
+.footer__red {
+  color: $red-theme;
+}
+.footer__white {
+  color: white;
+}
+.footer-logos {
+  padding: $m-size 10rem $m-size 10rem;
+  justify-content: space-around;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: $desktop-breakpoint) {
+  .footer {
+      height: $footer-height;
+      position: fixed;
+      bottom: 0;
+  }
+}

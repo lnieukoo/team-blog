@@ -1,0 +1,18 @@
+
+.rounded-circle {
+  height: 15rem;
+  width: 15rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.row {
+  margin-top: $m-size;
+  padding: $m-size;
+}
+
+@media (max-width: $desktop-breakpoint){
+  .row-main{
+    margin-bottom: $footer-height;
+  }
+}

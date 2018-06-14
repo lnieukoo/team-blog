@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="public/css/mystyle.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Team Blog</title>
+  </head>
+  <body>
+      <div id="header" class="header">
+        <h1 class="header__title">Team <span>Blog</span></h1>
+      </div>
+      <div class="row row-main">
+        <div class="col-12 order-md-last col-md-2">
+          <div class="col-md-2 category">
+            <h2 class="category__h2">Categories</h2>
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link category__items" href="#">All</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link category__items" href="#">Design</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link category__items" href="#">Development</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link category__items" href="#">Management</a>
+              </li>
+              <li class="nav-item">
+                <button type="button" class="btn btn-danger btn-lg category__button" data-toggle="modal" data-target="#newPostModal">
+                  Create New Post
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 order-md-first col-md-10">
+          <div class="row">
+            <div class="col-md-2 align-center">
+              <img src="public/images/display1.png" class="rounded-circle" alt="display pic 1"/>
+            </div>
+            <div class="col-md-10">
+                <h2 class="post__h2">Improve Your Application with Automated Testing and Manual Testing</h2>
+                <br/>
+                <h3><b>17 May, 2018</b> by <span class="post__yellow">Daniel Draper</span> in <span class="post__yellow">Management</span></h3>
+                <br/>
+                <p>
+                  Lorem ipsum dolor sit amet, etiam labores ea mea, ex ancillae phaedrum dissentias eam. Te nibh veniam pertinax pri, sed ei suas animal.
+                  Mel tale constituam eu, ex eripuit prodesset vel, his case disputationi conclusionemque an. Mea ei quem tale elit, ut aperiam rationibus sea.
+                  <a class="post__yellow" href="#"><b>Continue reading...</b></a>
+                </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-2 align-center">
+              <img src="public/images/display2.png" class="rounded-circle" alt="display pic 2"/>
+            </div>
+            <div class="col-md-10">
+                <h2 class="post__h2">Improved User Experience using ActionCable and ReactJS</h2>
+                <br/>
+                <h3><b>17 May, 2018</b> by <span class="post__orange">Daniel Draper</span> in <span class="post__orange">Management</span></h3>
+                <br/>
+                <p>
+                  Lorem ipsum dolor sit amet, etiam labores ea mea, ex ancillae phaedrum dissentias eam. Te nibh veniam pertinax pri, sed ei suas animal.
+                  Mel tale constituam eu, ex eripuit prodesset vel, his case disputationi conclusionemque an. Mea ei quem tale elit, ut aperiam rationibus sea.
+                  <a class="post__orange" href="#"><b>Continue reading...</b></a>
+                </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-2 align-center">
+              <img src="public/images/display3.png" class="rounded-circle" alt="display pic 3"/>
+            </div>
+            <div class="col-md-10">
+                <h2 class="post__h2">Quality Assurance: How to Reduce Manual Testing during Application Development</h2>
+                <br/>
+                <h3><b>17 May, 2018</b> by <span class="post__blue">Daniel Draper</span> in <span class="post__blue">Management<span></h3>
+                <br/>
+                <p>
+                  Lorem ipsum dolor sit amet, etiam labores ea mea, ex ancillae phaedrum dissentias eam. Te nibh veniam pertinax pri, sed ei suas animal.
+                  Mel tale constituam eu, ex eripuit prodesset vel, his case disputationi conclusionemque an. Mea ei quem tale elit, ut aperiam rationibus sea.
+                  <a class="post__blue" href="#"><b>Continue reading...</b></a>
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="row">
+          <div class="col-12 col-md-3 text-center">
+            <h1><b><span class="footer__red">re</span><span class="footer__white">interactive</span></b></h1>
+          </div>
+          <div class="col-12 col-md-3 offset-md-6 text-center d-none d-md-block">
+            <p><i class="material-icons">alternate_email</i> work@interactive.net</p>
+            <p><i class="material-icons">call</i> AUS +61 2 8019 7252</p>
+            <p><i class="material-icons">call</i> USA +1 415 365 9680</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 d-none d-md-block text-center footer-row__coljustify ">
+            <hr/>
+            <div class="footer-logos">
+              <span>Logo1</span><span>Logo2</span><span>Logo3</span>
+            </div>
+            <hr/>
+          </div>
+        </div>
+      </div>
+    <div class="modal fade" id="newPostModal" tabindex="-1" role="dialog" aria-labelledby="newPostModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="newPostModalLabel">New Post</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text" class="form-control" id="blogTitle" placeholder="Enter title">
+              </div>
+              <div class="form-group">
+                <label for="content">Content</label>
+                <textarea class="form-control modal__textarea" id="blogContent" rows="10 " placeholder="Content of post"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="blogName" placeholder="Enter name">
+              </div>
+              <div class="form-group">
+                <label for="position">Position</label>
+                <input type="text" class="form-control" id="blogPosition" placeholder="Enter position">
+              </div>
+              <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+              <button type="button" class="btn btn-secondary btn-lg" data-dismiss="modal">Close</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

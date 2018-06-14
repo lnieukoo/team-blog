@@ -1,0 +1,139 @@
+html {
+  font-size: 62.5%; }
+
+button {
+  cursor: pointer; }
+
+button:disabled {
+  cursor: default; }
+
+input[type="text"] {
+  font-size: 1.6rem; }
+
+p {
+  font-size: 1.6rem; }
+
+h2 {
+  font-size: 3.2rem;
+  font-weight: bold; }
+
+h3 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-style: italic; }
+
+hr {
+  width: 90%; }
+
+label {
+  font-size: 1.6rem; }
+
+@media (max-width: 45rem) {
+  blockquote {
+    text-align: justify; } }
+.rounded-circle {
+  height: 15rem;
+  width: 15rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.row {
+  margin-top: 1.6rem;
+  padding: 1.6rem; }
+
+@media (max-width: 45rem) {
+  .row-main {
+    margin-bottom: 10rem; } }
+.category {
+  padding: 1.6rem;
+  word-break: normal; }
+
+.category__button {
+  margin-top: 1.6rem;
+  margin-left: 0;
+  margin-right: 0; }
+
+.category__h2 {
+  text-align: center; }
+
+.category__items {
+  color: #CC2F29;
+  font-size: 1.6rem;
+  font-weight: bold; }
+
+.category__textarea {
+  font-size: 1.6rem; }
+
+@media (max-width: 45rem) {
+  .category__items {
+    text-align: center; }
+
+  .category button {
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+    display: block; } }
+.footer {
+  background: #2E3033;
+  height: 30rem;
+  width: 100%;
+  color: #727D83;
+  margin: 0; }
+
+.footer__red {
+  color: #CC2F29; }
+
+.footer__white {
+  color: white; }
+
+.footer-logos {
+  padding: 1.6rem 10rem 1.6rem 10rem;
+  justify-content: space-around;
+  margin: 0;
+  display: flex;
+  flex-direction: row; }
+
+@media (max-width: 45rem) {
+  .footer {
+    height: 10rem;
+    position: fixed;
+    bottom: 0; } }
+.header {
+  background: #CC2F29;
+  height: 20rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center; }
+
+.header__title {
+  color: white;
+  font-family: arial, sans-serif;
+  font-size: 4.8rem;
+  font-weight: bold;
+  text-align: center; }
+
+@media (max-width: 45rem) {
+  .header__title span {
+    display: block; } }
+.modal__textarea {
+  font-size: 1.6rem; }
+
+.modal-dialog {
+  padding: 1.6rem; }
+
+.post__blue {
+  color: #009C86; }
+
+.post__orange {
+  color: #FF5C35; }
+
+.post__yellow {
+  color: #FFC845; }
+
+@media (max-width: 45rem) {
+  .post__h2 {
+    text-align: center; } }
+
+/*# sourceMappingURL=mystyle.css.map */
